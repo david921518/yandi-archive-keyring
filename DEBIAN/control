@@ -1,0 +1,9 @@
+Package: yandi-archive-keyring
+Version: 1.0.0-1+deb12u1
+Section: misc
+Priority: optional
+Architecture: all
+Maintainer: TANG HUI (David) david921518@koudaipc.com
+Description: OpenPGP archive certificates of KPCOS/YanDi
+ KPCOS/YanDi digitally signs its Release files. This
+ package contains the archive certificates used for that.
