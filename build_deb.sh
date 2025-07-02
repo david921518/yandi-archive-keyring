@@ -8,4 +8,4 @@ rm -rf yandi-archive-keyring/README.md
 
 dpkg-deb --root-owner-group --build yandi-archive-keyring
 
-mv yandi-archive-keyring.deb yandi-archive-keyring_1.0.0-1+deb12u1_all.deb
+mv yandi-archive-keyring.deb yandi-archive-keyring_1.0.0-1+deb11u1_all.deb
