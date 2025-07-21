@@ -1,0 +1,8 @@
+# These ones are replaced by asc fragments
+rm_conffile /etc/apt/trusted.gpg.d/yandi-archive-bullseye-automatic.gpg 2022.1~~
+rm_conffile /etc/apt/trusted.gpg.d/yandi-archive-bullseye-security-automatic.gpg 2022.1~~
+rm_conffile /etc/apt/trusted.gpg.d/yandi-archive-bullseye-stable.gpg 2022.1~~
+# These get left over from the bullseye version, after which they became fragments
+rm_conffile /etc/apt/trusted.gpg.d/yandi-archive-bookworm-stable.gpg 2023.4~~
+rm_conffile /etc/apt/trusted.gpg.d/yandi-archive-bookworm-security-automatic.gpg 2023.4~~
+rm_conffile /etc/apt/trusted.gpg.d/yandi-archive-bookworm-automatic.gpg 2023.4~~
