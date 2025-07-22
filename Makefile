@@ -52,7 +52,7 @@ $(TRUSTED-LIST) :: trusted.gpg/yandi-archive-%.gpg : active-keys/add-% active-ke
 clean:
 	rm -f keyrings/yandi-archive-keyring.gpg \
 		keyrings/yandi-archive-keyring.gpg~ \
-		keyrings/yandin-archive-keyring.gpg.lastchangeset
+		keyrings/yandi-archive-keyring.gpg.lastchangeset
 	rm -f keyrings/yandi-archive-removed-keys.gpg \
 		keyrings/yandi-archive-removed-keys.gpg~ \
 		keyrings/yandi-archive-removed-keys.gpg.lastchangeset
