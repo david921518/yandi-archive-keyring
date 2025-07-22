@@ -1,0 +1,30 @@
+Source: yandi-archive-keyring
+Priority: optional
+Section: misc
+Maintainer: TANG HUI (David) <david921518@koudaipc.com>
+Uploaders: TANG HUI (David) <david921518@koudaipc.com>,
+Build-Depends: debhelper (>= 10), jetring, gnupg
+Rules-Requires-Root: no
+Standards-Version: 4.1.2
+Vcs-Browser: https://github.com/david921518/yandi-archive-keyring
+Vcs-Git: https://github.com/david921518/yandi-archive-keyring.git
+
+Package: yandi-archive-keyring
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+Description: GnuGP archive keys of KPCOS/YanDi
+ The KPCOS/YanDi project digitally signs its Release files. This
+ package contains the archive keys used for that.
+
+Package: yandi-archive-keyring-udeb
+Package-Type: udeb
+Priority: optional
+Architecture: all
+Section: debian-installer
+Depends: ${misc:Depends}
+Recommends: gpgv-udeb
+Description: GnuPG keys of the KPCOS/YanDi archive
+ The KPCOS/YanDi project digitally signs its Release files. This
+ package contains the archive keys used for that, in a minimal
+ form for use in the installer.

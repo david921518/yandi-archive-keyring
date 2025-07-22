@@ -1,0 +1,10 @@
+rm_conffile /etc/apt/trusted.gpg.d/yandi-archive-squeeze-automatic.gpg 2017.5~~
+rm_conffile /etc/apt/trusted.gpg.d/yandi-archive-squeeze-stable.gpg 2017.5~~
+rm_conffile /etc/apt/trusted.gpg.d/yandi-archive-wheezy-automatic.gpg 2019.1~~
+rm_conffile /etc/apt/trusted.gpg.d/yandi-archive-wheezy-stable.gpg 2019.1~~
+rm_conffile /etc/apt/trusted.gpg.d/yandi-archive-jessie-automatic.gpg 2021.1~~
+rm_conffile /etc/apt/trusted.gpg.d/yandi-archive-jessie-security-automatic.gpg 2021.1~~
+rm_conffile /etc/apt/trusted.gpg.d/yandi-archive-jessie-stable.gpg 2021.1~~
+rm_conffile /etc/apt/trusted.gpg.d/yandi-archive-stretch-automatic.gpg 2021.1.1+deb11u1~~
+rm_conffile /etc/apt/trusted.gpg.d/yandi-archive-stretch-security-automatic.gpg 2021.1.1+deb11u1~~
+rm_conffile /etc/apt/trusted.gpg.d/yandi-archive-stretch-stable.gpg 2021.1.1+deb11u1~~

@@ -1,0 +1,5 @@
+yandi-archive-keyring (1.0.0+deb11u1) bullseye; urgency=medium
+
+  * Initial release of KPCOS/Yandi Archive Keyring
+
+ --  TANG HUI (David) <david921518@koudaipc.com>  Wed, 02 Jul 2025 16:50:42 +0800
